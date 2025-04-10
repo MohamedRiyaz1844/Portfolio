@@ -1,0 +1,25 @@
+Draw Dream Public License v1.0 (Non-Commercial)
+
+Copyright (c) 2025 Sanjay Raja S
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use,
+copy, modify, and distribute the Software, subject to the following conditions:
+
+1. Non-Commercial Use Only  
+   You may not sell, sublicense, or use this Software or any derivative works 
+   for commercial purposes without express written permission from the author.
+
+2. Attribution  
+   You must give appropriate credit, provide a link to the license, and indicate 
+   if changes were made. You may do so in any reasonable manner, but not in any way 
+   that suggests the author endorses you or your use.
+
+3. Open Modifications  
+   You may modify this Software and distribute your modifications under the same license, 
+   provided it is not for commercial use.
+
+4. No Warranty  
+   The Software is provided "as is", without warranty of any kind, express or implied.
+
+For commercial licensing inquiries, contact: thesanjayraja@gmail.com
