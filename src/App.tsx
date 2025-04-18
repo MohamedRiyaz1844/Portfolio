@@ -1,13 +1,19 @@
-import React from "react";
-import HomeScreen from "./pages/HomeScreen"; // Adjust path if needed
-import Header from "./components/Header"; // Adjust path if needed
+// src/App.tsx
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomeScreen from "./pages/HomeScreen";
+import ScreenplayEditor from "./pages/ScreenplayEditor";
+import Layout from "./components/Layout";
 
-const App: React.FC = () => {
+const App = () => {
   return (
-    <div className="App h-screen overflow-hidden">
-      <Header />
-      <HomeScreen />
-    </div>
+    <Router>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<HomeScreen />} />
+          <Route path="/editor/:projectId" element={<ScreenplayEditor />} />
+        </Routes>
+      </Layout>
+    </Router>
   );
 };
 
