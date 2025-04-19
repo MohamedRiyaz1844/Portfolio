@@ -1,12 +1,13 @@
-// src/components/Layout.tsx
 import React from "react";
 import Header from "./Header";
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
-    <div>
+    <div className="flex flex-col h-screen"> {/* Full viewport height */}
       <Header />
-      <main>{children}</main>
+      <main className="flex-1 overflow-hidden"> {/* Take remaining space, no overflow */}
+        {children}
+      </main>
     </div>
   );
 };
