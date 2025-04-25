@@ -1,19 +1,21 @@
-// src/App.tsx
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import HomeScreen from "./pages/HomeScreen";
-import ScreenplayEditor from "./pages/ScreenplayEditor";
-import Layout from "./components/Layout";
+import React from 'react';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import About from './components/About';
+import Learning from './components/Learning';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <Router>
-      <Layout>
-        <Routes>
-          <Route path="/" element={<HomeScreen />} />
-          <Route path="/editor/:projectId" element={<ScreenplayEditor />} />
-        </Routes>
-      </Layout>
-    </Router>
+    <>
+      <Header />
+      <main className="pt-16">
+        <Hero />
+        <About />
+        <Learning />
+      </main>
+      <Footer />
+    </>
   );
 };
 
